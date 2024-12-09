@@ -15,7 +15,7 @@ class DeleteClassBasedComp extends Component{
                 <h4>Count: {this.state.count}</h4>
                 <button onClick={()=>{
                     this.setState({count:this.state.count*2})
-                }}>Increment</button>
+                }}>Increment +</button>
             </div>
         )
     }
